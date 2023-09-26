@@ -17,6 +17,6 @@ script:
     bucket_name: "elasticbeanstalk-us-east-2-105366316698"
     bucket_path: "vilas-aws-docker-test"
     on:
-      branch: master
+      branch: feature
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: "$AWS_SECRET_KEY"
